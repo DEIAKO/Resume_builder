@@ -1,68 +1,49 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 
 export const personalInfo = {
-  name: "Alex Developer",
-  title: "Full-Stack Engineer",
-  tagline: "Crafting beautiful, high-performance digital experiences with modern web technologies.",
-  bio: "I am a passionate software engineer with a deep focus on frontend architecture and seamless user experiences. With over 5 years of experience building scalable web applications, I thrive at the intersection of design and engineering. When I'm not writing code, I'm exploring new UI trends and contributing to open source.",
-  email: "hello@alexdeveloper.com",
+  name: "Samuel Htamu",
+  title: "Full-Stack Software Engineer",
+  tagline: "Building scalable web applications and APIs with 3+ years of MERN stack experience. Currently expanding into AI, Data Analytics & Machine Learning.",
+  bio: "I'm a full-stack JavaScript developer specializing in React.js and Node.js, with a proven track record of delivering scalable web applications and REST APIs for corporate and educational clients. Currently expanding my expertise into Data Analytics and Machine Learning — using PostgreSQL and Python to transform complex datasets into actionable insights. I'm passionate about clean code, great user experiences, and solving real-world problems through technology.",
+  email: "htamusamuel1@gmail.com",
   socials: [
     {
       platform: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/DEIAKO",
       icon: Github,
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/samuel-tvmu",
       icon: Linkedin,
     },
     {
       platform: "Email",
-      url: "mailto:hello@alexdeveloper.com",
+      url: "mailto:htamusamuel1@gmail.com",
       icon: Mail,
     },
   ],
 };
 
 export const skills = [
-  "React", "Next.js", "TypeScript", "Node.js", "Tailwind CSS", 
-  "GraphQL", "PostgreSQL", "Framer Motion", "AWS", "Docker", 
-  "System Design", "UI/UX"
+  "JavaScript (ES6+)", "React.js", "Next.js", "Node.js", "Express.js",
+  "TypeScript", "Python", "SQL / PostgreSQL", "MongoDB", "Tailwind CSS",
+  "REST APIs", "JWT Auth", "Supabase", "Flutter / Dart", "Docker",
+  "Git / GitHub", "Pandas", "NumPy", "Data Visualization", "EDA"
 ];
 
 export const experience = [
   {
     id: 1,
-    company: "TechCorp Global",
-    role: "Senior Frontend Engineer",
-    period: "2022 - Present",
+    company: "Freelance / Collaborative Projects",
+    role: "MERN Stack Developer",
+    period: "2022 – Present",
     bullets: [
-      "Led the migration of a legacy dashboard to a modern React/Next.js stack, improving performance by 40%.",
-      "Architected a scalable component library used across 5 internal products.",
-      "Mentored junior developers and established CI/CD pipelines for automated testing."
-    ]
-  },
-  {
-    id: 2,
-    company: "Innovate Startup",
-    role: "Full Stack Developer",
-    period: "2020 - 2022",
-    bullets: [
-      "Developed a real-time collaborative workspace tool using React and WebSockets.",
-      "Integrated Stripe for automated subscription billing, processing $50k+ MRR.",
-      "Optimized database queries in PostgreSQL, reducing load times by over 60%."
-    ]
-  },
-  {
-    id: 3,
-    company: "Digital Agency",
-    role: "Web Developer",
-    period: "2018 - 2020",
-    bullets: [
-      "Built over 20 custom websites for clients using modern JavaScript frameworks.",
-      "Worked closely with designers to implement pixel-perfect, responsive layouts.",
-      "Managed client communication and project scoping."
+      "Developed and deployed full-stack web applications using React.js and Node.js for various corporate and educational clients.",
+      "Engineered scalable RESTful APIs with Express.js, integrating MongoDB for efficient data persistence.",
+      "Implemented secure user authentication and authorization protocols using JSON Web Tokens (JWT).",
+      "Designed and optimized responsive, user-friendly UI components using modern CSS frameworks.",
+      "Improved system reliability by optimizing API performance and backend database queries."
     ]
   }
 ];
@@ -70,23 +51,39 @@ export const experience = [
 export const projects = [
   {
     id: 1,
-    title: "Nexus Commerce",
-    description: "A high-performance headless e-commerce storefront featuring real-time inventory tracking, AI-powered search, and seamless checkout.",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Stripe"],
-    githubUrl: "https://github.com",
+    title: "Shar Mu – Hyper-local Food Marketplace",
+    description: "A full-stack marketplace ecosystem for the Myitkyina market built with Flutter and Supabase (PostgreSQL). Features real-time order notifications, geofencing for delivery precision, and a multi-vendor management system with a dynamic 10% commission revenue model.",
+    tags: ["Flutter", "Dart", "Supabase", "PostgreSQL", "Real-time"],
+    githubUrl: "https://github.com/DEIAKO",
+  }
+];
+
+export const education = [
+  {
+    id: 1,
+    institution: "University of the Cordilleras",
+    degree: "Bachelor of Science in Computer Science",
+    location: "Philippines",
+  }
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: "MERN Stack Development",
+    issuer: "Creative Coder Myanmar",
+    year: "2020",
   },
   {
     id: 2,
-    title: "DevFlow Workspace",
-    description: "An intuitive project management dashboard designed specifically for software engineering teams, featuring Kanban boards and git integration.",
-    tags: ["React", "Node.js", "GraphQL", "PostgreSQL"],
-    githubUrl: "https://github.com",
+    title: "React.js Advanced Development",
+    issuer: "Creative Coder Myanmar",
+    year: "",
   },
   {
     id: 3,
-    title: "Aura UI Library",
-    description: "An open-source accessible component library built on top of Radix UI and Tailwind CSS, focusing on beautiful micro-interactions.",
-    tags: ["React", "Framer Motion", "Storybook"],
-    githubUrl: "https://github.com",
+    title: "Software Development",
+    issuer: "MMSIT",
+    year: "2021",
   }
 ];

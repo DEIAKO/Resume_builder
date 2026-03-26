@@ -16,7 +16,7 @@ export function About() {
           <div className="relative mx-auto lg:mx-0 max-w-md w-full">
             <div className="aspect-square rounded-3xl overflow-hidden relative z-10 border border-white/10 shadow-2xl bg-card">
               <img 
-                src={`${import.meta.env.BASE_URL}images/avatar.png`} 
+                src={`${import.meta.env.BASE_URL}images/avatar.jpg`} 
                 alt={personalInfo.name}
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />

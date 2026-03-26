@@ -1,0 +1,18 @@
+packages:
+  "framer-motion": "For premium page transitions, scroll animations, and micro-interactions"
+  "lucide-react": "Beautiful consistent iconography"
+  "clsx": "Utility for conditionally joining class names"
+  "tailwind-merge": "Utility for merging tailwind classes"
+
+images:
+  - path: "artifacts/resume-landing/public/images/hero-bg.png"
+    description: "Abstract, dark geometric mesh background with extremely soft, glowing teal and indigo light leaks. Minimalist, premium, dark mode aesthetic."
+    aspect_ratio: "16:9"
+  - path: "artifacts/resume-landing/public/images/avatar.png"
+    description: "Clean, professional, modern illustrated avatar of a developer in a minimalist style. Dark background with subtle rim lighting."
+    aspect_ratio: "1:1"
+
+notes:
+  - Single page application, using anchor links for navigation.
+  - Using Framer Motion for scroll reveals and hover effects.
+  - Assumes a local /resume.pdf exists at the root for download functionality.

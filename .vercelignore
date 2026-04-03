@@ -1,0 +1,50 @@
+# Version Control
+.git
+.gitignore
+.github
+
+# Dependencies
+node_modules
+pnpm-lock.yaml
+
+# Documentation
+**/*.md
+docs/
+
+# Test files
+**/*.test.ts
+**/*.spec.ts
+**/*.test.tsx
+**/*.spec.tsx
+__tests__/
+.test/
+
+# Build outputs (except for the specific app being deployed)
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment (don't commit sensitive data)
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache
+.next
+.turbo

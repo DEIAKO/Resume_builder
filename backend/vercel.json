@@ -1,0 +1,21 @@
+{
+  "buildCommand": "cd ../.. && pnpm install && pnpm run build --filter='@workspace/api-server'",
+  "outputDirectory": "artifacts/api-server/dist",
+  "public": false,
+  "functions": {
+    "artifacts/api-server/dist/**": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "PORT": {
+      "description": "Server port (Vercel sets this automatically)",
+      "default": "3000"
+    },
+    "NODE_ENV": {
+      "description": "Node environment",
+      "default": "production"
+    }
+  },
+  "devCommand": "cd ../.. && pnpm run dev --filter='@workspace/api-server'"
+}

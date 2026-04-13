@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Resume Landing Page"
+version = "1.0.0"
+id = "artifacts/resume-landing"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22345
+
+[services.development]
+run = "pnpm --filter @workspace/resume-landing run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/resume-landing", "run", "build" ]
+publicDir = "artifacts/resume-landing/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22345"
+BASE_PATH = "/"

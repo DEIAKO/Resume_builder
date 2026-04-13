@@ -1,0 +1,16 @@
+{
+  "buildCommand": "cd ../.. && pnpm install && pnpm run typecheck && pnpm run build --filter='@workspace/resume-landing'",
+  "outputDirectory": "artifacts/resume-landing/dist",
+  "framework": "vite",
+  "env": {
+    "PORT": {
+      "description": "Port for development (Vercel sets production port automatically)",
+      "default": "3000"
+    },
+    "BASE_PATH": {
+      "description": "Base path for the application (set to / for root deployment)",
+      "default": "/"
+    }
+  },
+  "devCommand": "cd ../.. && pnpm run dev --filter='@workspace/resume-landing'"
+}
